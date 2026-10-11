@@ -1,0 +1,10 @@
+{
+  "name": "razzaq-ventures-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Razzaq Ventures web platform and integration foundation",
+  "scripts": {"dev": "next dev", "build": "next build", "start": "next start", "lint": "eslint .", "typecheck": "tsc --noEmit"},
+  "engines": {"node": ">=20.9.0"},
+  "dependencies": {"next": "^15.5.0", "react": "^19.1.0", "react-dom": "^19.1.0", "zod": "^4.0.0"},
+  "devDependencies": {"@types/node": "^22.0.0", "@types/react": "^19.0.0", "@types/react-dom": "^19.0.0", "eslint": "^9.0.0", "eslint-config-next": "^15.5.0", "typescript": "^5.9.0"}
+}
